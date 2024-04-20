@@ -1,6 +1,10 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
+<<<<<<< HEAD
+=======
+      {{title}}
+>>>>>>> d386d30489682502835e8b64fd65958d8dea200f
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -14,7 +18,17 @@
 
 
   <div id="container">
+<<<<<<< HEAD
     <p>Contenido de la página Home</p>
+=======
+    <p *ngIf="verdadero">Si ves este mensaje, <strong>verdadero</strong> es <strong>true</strong></p>
+    <p [ngClass] = "{'rojo': verdadero, 'azul': verdadero == false}">Si <strong>verdadero</strong> es verdadero, este texto será <strong>rojo</strong>, pero si es falso, entonces será <strong>azul</strong></p>
+    <p><img [src] = "imgUrl"></p>
+    <p>Inserta el nombre del alumno en el campo:</p>
+    <ion-input [(ngModel)] = "nombreAlumno"></ion-input>
+    <p><ion-label>El alumno se llama: <strong>{{nombreAlumno}}</strong></ion-label></p>
+    <ion-button (click) = "hazmeClic()">Hazme clic!</ion-button>
+>>>>>>> d386d30489682502835e8b64fd65958d8dea200f
   </div>
 
    

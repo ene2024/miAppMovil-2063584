@@ -17,6 +17,7 @@ export class HomePage {
     console.log("AppComponent: OnChanges");
   }
 
+<<<<<<< HEAD
   ngOnInit() {
     console.log("AppComponent: OnInit");
   }
@@ -25,6 +26,25 @@ export class HomePage {
     console.log("AppComponent: OnChanges");
   }
 
+=======
+  constructor() {
+    console.log("AppComponent: Constructor");
+  }
+
+
+  ngOnChanges() {
+    console.log("AppComponent: OnChanges");
+  }
+
+  ngOnInit() {
+    console.log("AppComponent: OnInit");
+  }
+
+  ngDoCheck() {
+    console.log("AppComponent: DoCheck");
+  }
+
+>>>>>>> d386d30489682502835e8b64fd65958d8dea200f
   ngAfterContentInit() {
     console.log("AppComponent: AfterContentInit");
   }
@@ -34,7 +54,11 @@ export class HomePage {
   }
 
   ngAfterViewInit() {
+<<<<<<< HEAD
     console.log("AppComponent: AfterContentViewInit");
+=======
+    console.log("AppComponent: AfterViewInit");
+>>>>>>> d386d30489682502835e8b64fd65958d8dea200f
   }
 
   ngAfterViewChecked() {
@@ -44,9 +68,19 @@ export class HomePage {
   ngOnDestroy() {
     console.log("AppComponent: OnDestroy");
   }
+<<<<<<< HEAD
   hazmeClic(): void{
     alert("hiciste clic!");
   }
+=======
+  title: string = 'Nueva página';
+
+  hazmeClic(): void{
+    alert("¡Hiciste click!");
+  }
+
+  
+>>>>>>> d386d30489682502835e8b64fd65958d8dea200f
 }
 
 
